@@ -7,7 +7,7 @@ import "math"
 const Pi = 3.1416
 
 // Circ é responsável por calcular a área da circunferência
-func Circ(raio foat64) float64 {
+func Circ(raio float64) float64 {
   return math.Pow(raio, 2) * Pi
 }
 
